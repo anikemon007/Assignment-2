@@ -1,0 +1,505 @@
+/* shared styles */
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+/* header section */
+.company-logo {
+    display: flex;
+    align-items: center;
+    color: #FF5400;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 100px;
+
+
+}
+
+.travel {
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav h1 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #131318
+}
+
+nav img {
+    width: 48px;
+    height: 56.008px;
+    margin-right: 16px;
+}
+
+nav ul {
+    display: flex;
+    display: inline-flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    font-size: 18px;
+    font font-weight: 400;
+    padding-right: 100px;
+    padding-top: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #424247;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li .home {
+    color: #FF5400;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* header end */
+
+/* main */
+/* explore section */
+.explore-image {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    width: 1150px;
+    height: 500px;
+    margin-left: 100px;
+    border-radius: 16px;
+    margin-bottom: 90px;
+
+}
+
+.explore-title {
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 100px;
+    width: 600px;
+    height: 80;
+    padding-left: 300px;
+
+}
+
+.explore-paragraph {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 600px;
+    text-align: center;
+    padding-left: 250px;
+    padding-bottom: 50px;
+}
+
+div>input {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    color: #FFF;
+    text-align: center;
+
+
+}
+
+div button {
+    width: 174px;
+    height: 57px;
+    border-radius: 8px;
+    background: #FF5400;
+    text-align: center;
+
+}
+
+.four-style {
+    padding-left: 200px;
+}
+
+/* middle section */
+.popular-container {
+    padding-left: 100px;
+
+}
+
+.popular-container li {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 10px 0;
+
+}
+
+.popular-container p {
+    padding: 10px 0;
+}
+
+.popular-container button {
+    margin-top: 15px;
+}
+
+.himalaya-image {
+    background-image: url(/Images/Rectangle\ 4.png);
+    width: 600px;
+    height: 500px;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    margin-right: 20px;
+    background: lightgray 50% / cover no-repeat,
+
+
+}
+
+
+.middle-section {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+/*  destination section */
+.destination-title {
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.destination-title h1 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    height: 45px;
+
+}
+
+.destination-title p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    height: 25px;
+
+}
+
+/* images */
+.first-two-image {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+
+}
+
+.maldiv {
+    background-image: url(/Images/Rectangle\ 5.png);
+    background-repeat: no-repeat;
+    width: 573px;
+    height: 300px;
+    border-radius: 18px;
+    margin-left: 0px;
+
+}
+
+.maldiv h1 {
+    color: #FFF;
+    /* text-align: center; */
+    font-size: 28px;
+    font-weight: 800;
+    height: 35px;
+    width: 120px;
+    padding-top: 120px;
+    padding-left: 226px;
+}
+
+.indonesia {
+    background-image: url(/Images/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+    width: 573px;
+    height: 300px;
+    border-radius: 18px;
+    /* margin-left: 100px; */
+
+}
+
+.indonesia h1 {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    height: 35px;
+    width: 120px;
+    padding-top: 120px;
+    padding-left: 220px;
+}
+
+.three-image {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 60px;
+}
+
+.three-image h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    padding-top: 100px;
+
+}
+
+.Srilanka {
+    background-image: url(/Images/Rectangle\ 6.png);
+    background-repeat: no-repeat;
+    width: 374px;
+    height: 286px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat,
+}
+
+.North-America {
+    background-image: url(/Images/Rectangle\ 7.png);
+    background-repeat: no-repeat;
+    width: 474px;
+    height: 286px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat,
+}
+
+.Kashmir {
+    background-image: url(/Images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    width: 274px;
+    height: 286px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat,
+}
+
+.two-image {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-bottom: 80px;
+}
+
+.two-image h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    padding-top: 100px;
+
+}
+
+.Bangladesh {
+    background-image: url(/Images/Rectangle\ 11.png);
+    background-repeat: no-repeat;
+    width: 473px;
+    height: 300px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat,
+}
+
+.Bandarban {
+    background-image: url(/Images/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+    width: 673px;
+    height: 300px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat,
+}
+
+/* choose  */
+.choose-title {
+    text-align: center;
+}
+
+.choose-title h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.choose-title p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 20px;
+
+}
+
+.three-icon img {
+    width: 64px;
+    height: 64px;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+.three-icon h1 {
+    padding-left: 32px;
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.three-icon p {
+    width: 486px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 32px;
+
+}
+
+.two-icon {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 40px 20px 40px;
+}
+
+.Handpicked-Hotels {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+
+}
+
+.map {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+
+}
+
+.deals {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin-left: 390px;
+    margin-bottom: 80px;
+}
+
+/* newsletter section */
+.Newsletter {
+    width: 474px;
+    height: 422px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.Newsletter h1 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.Newsletter p {
+    color: #5A5A5D;
+    width: 350px;
+    font-size: 16px;
+    height: 50px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 40px;
+    
+
+}
+
+.Newsletter hr {
+    width: 393px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
+
+.Newsletter input {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    outline: none;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.Newsletter button {
+    width: 393px;
+    height: 52px;
+    margin-left: 40px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+
+.discount-image {
+    width: 672px;
+    height: 422px;
+    border-radius: 16px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat,
+}
+
+.last-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 30px 80px 30px;
+}
+
+/* footer */
+.footer {
+    width: 100%;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+    padding-top: 110px;
+}
+.footer img{
+    padding-right: 10px;
+}
+.footer p{
+    text-align: center;
+}
+.tra{
+    color: #FF5400;
+   margin-bottom: 60px;
+}
+.icons{
+   margin-left: 500px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+.last-hr{
+    width: 800px;
+    margin-bottom: 60px;
+}
+@media screen and (max-wdth:600px) {}
