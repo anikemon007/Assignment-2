@@ -12,8 +12,6 @@
     font-size: 18px;
     font-weight: 700;
     padding-left: 100px;
-
-
 }
 
 .travel {
@@ -51,6 +49,7 @@ nav ul {
     font font-weight: 400;
     padding-right: 100px;
     padding-top: 30px;
+
 }
 
 nav a {
@@ -60,12 +59,14 @@ nav a {
 
 nav li {
     list-style: none;
+
 }
 
 nav li .home {
     color: #FF5400;
     font-size: 18px;
     font-weight: 700;
+
 }
 
 /* header end */
@@ -73,7 +74,7 @@ nav li .home {
 /* main */
 /* explore section */
 .explore-image {
-    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
     width: 1150px;
     height: 500px;
@@ -90,7 +91,7 @@ nav li .home {
     text-align: center;
     padding-top: 100px;
     width: 600px;
-    height: 80;
+    height: 80px;
     padding-left: 300px;
 
 }
@@ -103,7 +104,7 @@ nav li .home {
     width: 600px;
     text-align: center;
     padding-left: 250px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 div>input {
@@ -112,7 +113,7 @@ div>input {
     border-radius: 8px;
     color: #FFF;
     text-align: center;
-
+    border: 0;
 
 }
 
@@ -122,11 +123,19 @@ div button {
     border-radius: 8px;
     background: #FF5400;
     text-align: center;
-
+    border: 0;
+    color: #FFF;
 }
 
-.four-style {
-    padding-left: 200px;
+.box {
+    height: 90px;
+    width: 850px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
 }
 
 /* middle section */
@@ -153,7 +162,7 @@ div button {
 }
 
 .himalaya-image {
-    background-image: url(/Images/Rectangle\ 4.png);
+    background-image: url(../Images/Rectangle\ 4.png);
     width: 600px;
     height: 500px;
     background-repeat: no-repeat;
@@ -207,7 +216,7 @@ div button {
 }
 
 .maldiv {
-    background-image: url(/Images/Rectangle\ 5.png);
+    background-image: url(../Images/Rectangle\ 5.png);
     background-repeat: no-repeat;
     width: 573px;
     height: 300px;
@@ -228,7 +237,7 @@ div button {
 }
 
 .indonesia {
-    background-image: url(/Images/Rectangle\ 8.png);
+    background-image: url(../Images/Rectangle\ 8.png);
     background-repeat: no-repeat;
     width: 573px;
     height: 300px;
@@ -263,7 +272,7 @@ div button {
 }
 
 .Srilanka {
-    background-image: url(/Images/Rectangle\ 6.png);
+    background-image: url(../Images/Rectangle\ 6.png);
     background-repeat: no-repeat;
     width: 374px;
     height: 286px;
@@ -272,7 +281,7 @@ div button {
 }
 
 .North-America {
-    background-image: url(/Images/Rectangle\ 7.png);
+    background-image: url(../Images/Rectangle\ 7.png);
     background-repeat: no-repeat;
     width: 474px;
     height: 286px;
@@ -281,7 +290,7 @@ div button {
 }
 
 .Kashmir {
-    background-image: url(/Images/Rectangle\ 9.png);
+    background-image: url(../Images/Rectangle\ 9.png);
     background-repeat: no-repeat;
     width: 274px;
     height: 286px;
@@ -307,7 +316,7 @@ div button {
 }
 
 .Bangladesh {
-    background-image: url(/Images/Rectangle\ 11.png);
+    background-image: url(../Images/Rectangle\ 11.png);
     background-repeat: no-repeat;
     width: 473px;
     height: 300px;
@@ -316,7 +325,7 @@ div button {
 }
 
 .Bandarban {
-    background-image: url(/Images/Rectangle\ 10.png);
+    background-image: url(../Images/Rectangle\ 10.png);
     background-repeat: no-repeat;
     width: 673px;
     height: 300px;
@@ -427,7 +436,7 @@ div button {
     font-weight: 400;
     line-height: 26px;
     padding-left: 40px;
-    
+
 
 }
 
@@ -483,23 +492,268 @@ div button {
     justify-content: center;
     padding-top: 110px;
 }
-.footer img{
+
+.footer img {
     padding-right: 10px;
 }
-.footer p{
+
+.footer p {
     text-align: center;
 }
-.tra{
+
+.tra {
     color: #FF5400;
-   margin-bottom: 60px;
+    margin-bottom: 60px;
 }
-.icons{
-   margin-left: 500px;
-   margin-top: 30px;
-   margin-bottom: 30px;
+
+.icons {
+    margin-left: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
-.last-hr{
+
+.last-hr {
     width: 800px;
     margin-bottom: 60px;
 }
-@media screen and (max-wdth:600px) {}
+
+@media screen and (max-width:600px) {
+    .company-logo {
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    .company-logo h1 {
+        font-size: 21px;
+
+
+    }
+
+    .travel {
+        font-size: 21px;
+
+    }
+
+    .company-logo img {
+        height: 30px;
+        width: 33px;
+
+
+    }
+
+    .header-container {
+        display: none;
+    }
+
+    .explore-image {
+        width: 335px;
+        height: 483px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+
+
+    }
+
+    .explore-title {
+        padding-top: 23px;
+        padding-left: 50px;
+        font-size: 20px;
+        text-align: justify;
+        height: 10px;
+
+    }
+
+    .explore-paragraph {
+        padding-top: 10px;
+        padding-left: 30px;
+        font-size: 15px;
+        width: 250px;
+    }
+
+    .box {
+        height: 230px;
+        width: 290px;
+        margin-left: 20px;
+        margin-left: 20px;
+    }
+
+    div>input {
+        height: 40px;
+        margin-left: 40px;
+        margin-bottom: 10px;
+    }
+
+    div button {
+        height: 45px;
+        margin-left: 40px;
+    }
+
+    .popular-container {
+        padding-left: 20px;
+        padding: ;
+    }
+
+    .popular-container button {
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+
+    .middle-section {
+        display: block;
+        padding-bottom: 10px;
+    }
+
+    .himalaya-image {
+        width: 375px;
+        height: 392px;
+        margin-left: 20px;
+        border-radius: 16px;
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat,
+
+    }
+
+    .destination-title h1 {
+        font-size: 25px;
+        height: 30px;
+
+    }
+
+    .first-two-image {
+        display: block;
+        margin-left: 20px;
+
+    }
+
+    .maldiv {
+        width: 375px;
+        height: 216px;
+
+    }
+
+    .indonesia {
+        width: 375px;
+        height: 216px;
+    }
+
+    .three-image {
+        display: block;
+        margin-left: 20px;
+    }
+
+    .Srilanka {
+        width: 375px;
+        height: 216px;
+    }
+
+    .North-America {
+        width: 375px;
+        height: 216px;
+    }
+
+    .Kashmir {
+        width: 100%;
+        height: 216px;
+    }
+
+    .two-image {
+        display: block;
+        margin-left: 20px;
+        margin-bottom: 0;
+    }
+
+    .Bangladesh {
+        width: 375px;
+        height: 216px;
+    }
+
+    .Bandarban {
+        width: 375px;
+        height: 216px;
+    }
+
+    .two-icon {
+        display: block;
+        padding-left: 20px;
+        width: 335px;
+        height: 289px;
+
+    }
+
+    .Handpicked-Hotels {
+        width: 365px;
+        height: 289px;
+        margin-bottom: 20px;
+    }
+
+    .Handpicked-Hotels p {
+        width: 250px;
+    }
+
+    .map {
+        width: 365px;
+        height: 289px;
+        margin-bottom: 20px;
+
+    }
+
+    .map p {
+        width: 250px;
+    }
+    .three-icon{
+        display: flex;
+        flex-direction:column;
+    }
+    .deals{
+        width: 365px;
+        height: 289px;
+        margin-bottom: 20px;
+    }
+    .deals p{
+        width: 250px;
+    }
+    .last-container {
+        display: block;
+    }
+
+    .Newsletter {
+        margin-bottom: 30px;
+        width: 335px;
+        height: 353px;
+
+    }
+
+    .Newsletter p {
+        width: 250px;
+    }
+
+    .Newsletter hr {
+        width: 250px;
+    }
+
+    .Newsletter input {
+        width: 248px;
+        height: 42px;
+        
+    }
+    .Newsletter button{
+        width: 248px;
+        height: 42px;
+    }
+
+    .discount-image {
+        height: 300px;
+        width: 335px;
+    }
+    .last-container{
+        margin-bottom: 20px;
+    }
+    .footer {
+        width: 415px;
+    }
+    .icons{
+        margin-left: 30px;
+    }
+    .last-hr{
+        width:415px;
+    }
+}
