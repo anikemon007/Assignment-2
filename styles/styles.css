@@ -669,13 +669,20 @@ div button {
     .Bandarban {
         width: 375px;
         height: 216px;
+        
     }
-
+    .choose-title p{
+        padding-bottom: 210px;
+        padding-left: 20px;
+       
+    }
     .two-icon {
-        display: block;
+        display: flex;
+        flex-direction: column;
         padding-left: 20px;
         width: 335px;
         height: 289px;
+      
 
     }
 
@@ -692,21 +699,20 @@ div button {
     .map {
         width: 365px;
         height: 289px;
-        margin-bottom: 20px;
+        margin-bottom: 200px;
 
     }
 
     .map p {
         width: 250px;
     }
-    .three-icon{
-        display: flex;
-        flex-direction:column;
-    }
+   
     .deals{
         width: 365px;
         height: 289px;
         margin-bottom: 20px;
+        margin-left: 20px;
+        
     }
     .deals p{
         width: 250px;
